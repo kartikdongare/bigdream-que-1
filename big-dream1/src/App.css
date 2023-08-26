@@ -1,0 +1,62 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counters {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.customer-queue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.queue-length {
+  font-size: 14px;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid blue;
+}
+
+.items {
+  font-size: 14px;
+}
